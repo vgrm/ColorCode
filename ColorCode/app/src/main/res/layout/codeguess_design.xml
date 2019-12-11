@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/linearImages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:background="@drawable/button_border">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/incorrect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="5dp"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_clear_black_24dp" />
+
+            <ImageView
+                android:id="@+id/correctPoint04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:layout_marginTop="11dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_radio_button_unchecked_black_24dp" />
+
+            <ImageView
+                android:id="@+id/correctPoint05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="22dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_radio_button_unchecked_black_24dp" />
+
+            <ImageView
+                android:id="@+id/correctPoint06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="11dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_radio_button_unchecked_black_24dp" />
+
+            <ImageView
+                android:id="@+id/correctPoint01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_radio_button_checked_black_24dp" />
+
+            <ImageView
+                android:id="@+id/correctPoint02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="11dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_radio_button_checked_black_24dp" />
+
+            <ImageView
+                android:id="@+id/correctPoint03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="11dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:tint="@color/colorAccent"
+                app:srcCompat="@drawable/ic_radio_button_checked_black_24dp" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/codePeg01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            app:srcCompat="@drawable/ic_lens_black_24dp" />
+
+        <ImageView
+            android:id="@+id/codePeg02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            app:srcCompat="@drawable/ic_lens_black_24dp" />
+
+        <ImageView
+            android:id="@+id/codePeg03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            app:srcCompat="@drawable/ic_lens_black_24dp" />
+
+        <ImageView
+            android:id="@+id/codePeg04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            app:srcCompat="@drawable/ic_lens_black_24dp" />
+
+        <ImageView
+            android:id="@+id/codePeg05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            app:srcCompat="@drawable/ic_lens_black_24dp" />
+
+        <ImageView
+            android:id="@+id/codePeg06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:scaleX="1.25"
+            android:scaleY="1.25"
+            app:srcCompat="@drawable/ic_lens_black_24dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

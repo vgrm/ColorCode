@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/helvetica"
+            android:text="Help"
+            android:textColor="@color/colorAccent"
+            android:textSize="36sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="25dp">
+
+
+
+                <TextView
+                    android:id="@+id/textView00"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica"
+                    android:text="Mastermind"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica"
+                    android:text="a code-breaking game where you have to guess the hidden pattern"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="25dp">
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/helvetica"
+                        android:text="Crack the code by selecting colors. To make a guess click the button bellow"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_weight="1">
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <RadioButton
+                                android:id="@+id/blueButton"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/color01"
+                                android:scaleX="1.25"
+                                android:scaleY="1.25" />
+
+                            <RadioButton
+                                android:id="@+id/lightblueButton"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/color02"
+                                android:scaleX="1.25"
+                                android:scaleY="1.25" />
+
+                            <RadioButton
+                                android:id="@+id/greenButton"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/color03"
+                                android:scaleX="1.25"
+                                android:scaleY="1.25" />
+
+                            <RadioButton
+                                android:id="@+id/yellowButton"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/color04"
+                                android:scaleX="1.25"
+                                android:scaleY="1.25" />
+
+                            <RadioButton
+                                android:id="@+id/orangeButton"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/color05"
+                                android:scaleX="1.25"
+                                android:scaleY="1.25" />
+
+                            <RadioButton
+                                android:id="@+id/redButton"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/color06"
+                                android:scaleX="1.25"
+                                android:scaleY="1.25" />
+
+                            <RadioButton
+                                android:id="@+id/pinkButton"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/color07"
+                                android:scaleX="1.25"
+                                android:scaleY="1.25" />
+
+                            <RadioButton
+                                android:id="@+id/purpleButton"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:buttonTint="@color/color08"
+                                android:scaleX="1.25"
+                                android:scaleY="1.25" />
+                        </RadioGroup>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/guessButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button_border"
+                        android:fontFamily="@font/helvetica"
+                        android:text="@string/btn_guess"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="36sp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="25dp">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica"
+                    android:text="Your guess will look like this on the board. The smaller filled icons on the left indicate how much of the code you got in the correct spot and correct color, while the empty ones how much of it matched the color but not the position"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:id="@+id/linearImages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/correctPoint04a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/correctPoint01a"
+                            android:layout_alignTop="@+id/correctPoint03a"
+                            android:scaleX="0.5"
+                            android:scaleY="0.5"
+                            android:tint="@color/colorAccent"
+                            app:srcCompat="@drawable/ic_radio_button_unchecked_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/correctPoint01a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="11dp"
+                            android:scaleX="0.5"
+                            android:scaleY="0.5"
+                            android:tint="@color/colorAccent"
+                            app:srcCompat="@drawable/ic_radio_button_checked_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/correctPoint02a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="11dp"
+                            android:scaleX="0.5"
+                            android:scaleY="0.5"
+                            android:tint="@color/colorAccent"
+                            app:srcCompat="@drawable/ic_radio_button_checked_black_24dp" />
+
+                        <ImageView
+                            android:id="@+id/correctPoint03a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="11dp"
+                            android:scaleX="0.5"
+                            android:scaleY="0.5"
+                            android:tint="@color/colorAccent"
+                            app:srcCompat="@drawable/ic_radio_button_checked_black_24dp" />
+
+                    </RelativeLayout>
+
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:scaleX="1.25"
+                        android:scaleY="1.25"
+                        app:srcCompat="@drawable/ic_lens_black_24dp"
+                        android:tint="@color/color07"/>
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:scaleX="1.25"
+                        android:scaleY="1.25"
+                        app:srcCompat="@drawable/ic_lens_black_24dp"
+                        android:tint="@color/color03"/>
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:scaleX="1.25"
+                        android:scaleY="1.25"
+                        app:srcCompat="@drawable/ic_lens_black_24dp"
+                        android:tint="@color/color05"/>
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:scaleX="1.25"
+                        android:scaleY="1.25"
+                        app:srcCompat="@drawable/ic_lens_black_24dp"
+                        android:tint="@color/color05"/>
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:scaleX="1.25"
+                        android:scaleY="1.25"
+                        app:srcCompat="@drawable/ic_lens_black_24dp"
+                        android:tint="@color/color06"/>
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_margin="5dp"
+                        android:scaleX="1.25"
+                        android:scaleY="1.25"
+                        app:srcCompat="@drawable/ic_lens_black_24dp"
+                        android:tint="@color/color08"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:id="@+id/textView125"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica"
+                    android:text="We'll let you know once the guess matches the secret code pattern"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginBottom="25dp">
+
+                <TextView
+                    android:id="@+id/textView000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica"
+                    android:text="Good luck!"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica"
+                    android:text="You can change the difficulty in settings"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView0a"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica"
+                    android:text="Easy - code length 4; possible colors 4;"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView0ab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica"
+                    android:text="Medium - code length 4; possible colors 6;"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textView0ac"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/helvetica"
+                    android:text="Hard - code length 6; possible colors 8;"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
